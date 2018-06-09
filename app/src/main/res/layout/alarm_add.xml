@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linear_top">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:text="主题:"
+                android:textSize="35sp"
+                android:gravity="top"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:background="#CCCCCC"
+                android:id="@+id/add_et_title_alarm" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:text="内容:"
+                android:textSize="35sp"
+                android:gravity="top"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#CCCCCC"
+                android:gravity="top"
+                android:id="@+id/add_et_note_alarm"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="154dp"
+        android:layout_height="83dp"
+        android:text="确认"
+        android:textSize="30sp"
+        android:id="@+id/add_bt_confirm"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="154dp"
+        android:layout_height="83dp"
+        android:text="取消"
+        android:textSize="30sp"
+        android:id="@+id/add_bt_request"
+        android:layout_gravity="bottom"
+
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentEnd="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/linear_top"
+        android:layout_above="@id/add_bt_confirm"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:id="@+id/linearLayout2">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/bt_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择日期"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/bt_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择时间"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的日期"
+            android:textSize="30sp"/>
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的时间"
+            android:textSize="30sp"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

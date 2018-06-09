@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shenzhen"
+    android:orientation="vertical">
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="60dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="晨练指数:"
+        android:textSize="30sp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:id="@+id/chenlian"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="晨练指数:晨练指数:晨练指数:晨练指数:晨练指数:"
+        android:textSize="15sp"
+        android:textColor="#ffffff"/>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="60dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="舒适度:"
+        android:textSize="30sp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:id="@+id/shushidu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="舒适度:"
+        android:textSize="15sp"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="穿衣指数:"
+        android:textSize="30sp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="感冒指数:"
+        android:textSize="30sp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="晾晒指数:"
+        android:textSize="30sp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="旅游指数:"
+        android:textSize="30sp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="紫外线强度:"
+        android:textSize="30sp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="洗车指数:"
+        android:textSize="30sp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="运动指数:"
+        android:textSize="30sp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="约会指数:"
+        android:textSize="30sp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="雨伞指数:"
+        android:textSize="30sp"
+        android:textColor="#ffffff"/>
+
+
+
+</LinearLayout>
